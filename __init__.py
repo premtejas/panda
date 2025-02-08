@@ -6,6 +6,7 @@ from .python.utils import logger # noqa: F401
 from .python import (Panda, PandaDFU, isotp, # noqa: F401
                      pack_can_buffer, unpack_can_buffer, calculate_checksum,
                      DLC_TO_LEN, LEN_TO_DLC, ALTERNATIVE_EXPERIENCE, CANPACKET_HEAD_SIZE)
+from .tests import libpanda
 
 
 # panda jungle
